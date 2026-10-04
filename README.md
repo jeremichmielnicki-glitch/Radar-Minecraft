@@ -1,1 +1,2 @@
 # Radar-Minecraft
+Radar do gry minecraft wskazujący pozycję najbliższego wrogiego moba poprzez obracanie orczyka serwomechanizmem w odpowiednią stronę i sygnalizację diodą LED. Sterowanie serwa odbywa się za pomocą mikrokontrolera Arduino Pro Micro. Komunikacja z komputerem odbywa się za pomocą portu szeregowego COM przez protokół UART. Po stronie komputera uruchomiony jest autorski mod minecraft obliczający położenie najbliższego wrogiego moba, filtrowanie i wysyłanie danych portem COM6.
